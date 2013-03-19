@@ -23,7 +23,7 @@
     (set-frame-parameter frame 'height 54)
     (set-frame-parameter frame 'left '(- 0))
     (set-frame-parameter frame 'top '(- 5000))))
-    
+
 
 (setq mac-option-modifier nil)
 (setq mac-command-modifier 'meta)
@@ -49,8 +49,8 @@
 
 (when nil
   ;; These configuration seems to stop working in recent version of
-  ;; Emacs 24.x. 
-  (set-fontset-font "fontset-standard" 'unicode 
+  ;; Emacs 24.x.
+  (set-fontset-font "fontset-standard" 'unicode
                     (font-spec :name "Consolas"
                                :weight 'normal
                                :slant 'normal
@@ -83,8 +83,8 @@
                     (font-spec :name "NanumGothicCoding")))
 
 (setq default-frame-alist (append default-frame-alist
-                                  '((width . 80) (height . 45)
-                                    (alpha . (100 . 60)))))
+                                  '((width . 82) (height . 38)
+                                    (alpha . (100 . 90)))))
 
 (when (display-graphic-p)
   (global-set-key [(meta ?c)] 'ns-copy-including-secondary))
